@@ -7,6 +7,7 @@ Before=display-manager.service
 Type=oneshot
 ExecStart=/sbin/resize2fs /dev/mmcblk0p1
 ExecStart=/usr/bin/pkcon remove calamares c1-calamares-core
+ExecStart=/usr/sbin/deluser --remove-home --quiet live
 
 [Install]
 WantedBy=multi-user.target
