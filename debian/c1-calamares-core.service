@@ -5,9 +5,7 @@ Before=display-manager.service
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/resize2fs /dev/mmcblk0p1
-ExecStart=/usr/bin/qdbus --system org.freedesktop.Accounts /org/freedesktop/Accounts org.freedesktop.Accounts.DeleteUser 1000 true
-ExecStart=/usr/bin/pkcon -y remove calamares c1-calamares-core
+ExecStart=/usr/sbin/deferred_removal
 
 [Install]
 WantedBy=multi-user.target
