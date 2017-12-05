@@ -1,0 +1,23 @@
+---
+componentName:  netrunner-zeronet
+
+strings:
+    productName:         Netrunner Zeronet
+    shortProductName:    Zeronet
+    version:             17.10.0-dev
+    shortVersion:        17.10
+    versionedName:       Netrunner Zeronet
+    shortVersionedName:  Netrunner Zeronet 17.10
+    bootloaderEntryName: Netrunner Zeronet
+
+images:
+    productLogo:         "netrunner-zeronet-logo.png"
+    productIcon:         "netrunner-zeronet-icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#0C0C0C"
+   sidebarText:          "#5A5A5A"
+   sidebarTextSelect:    "#FFFFFF"
