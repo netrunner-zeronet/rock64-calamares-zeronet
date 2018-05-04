@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-ROOT='/dev/mmcblk0'
+ROOT='/dev/mmcblk1'
 parted --script ${ROOT} p
 parted --script ${ROOT} rm 1
 parted --script ${ROOT} "mkpart primary ext4 32768s -1s"
