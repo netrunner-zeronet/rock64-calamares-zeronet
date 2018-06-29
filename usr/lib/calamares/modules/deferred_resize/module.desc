@@ -1,0 +1,6 @@
+---
+type: "job"
+interface:  "process"
+name: "deferred_resize"
+command: "/usr/sbin/fs_resize"
+timeout: 360
