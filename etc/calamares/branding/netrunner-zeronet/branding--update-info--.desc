@@ -1,0 +1,23 @@
+---
+componentName:  zerobox
+
+strings:
+    productName:         Zerobox
+    shortProductName:    Core
+    version:             19.01.0-dev
+    shortVersion:        19.01
+    versionedName:       Netrunner Core
+    shortVersionedName:  Netrunner Core 19.01
+    bootloaderEntryName: Netrunner Core
+
+images:
+    productLogo:         "zerobox-logo.png"
+    productIcon:         "zerobox-icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#0C0C0C"
+   sidebarText:          "#5A5A5A"
+   sidebarTextSelect:    "#7F8E9E"
