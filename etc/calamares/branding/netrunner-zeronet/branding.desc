@@ -1,5 +1,6 @@
 ---
 componentName:  netrunner-zeronet
+windowExpanding: noexpand
 
 strings:
     productName:         Zerobox
