@@ -3,13 +3,13 @@ componentName:  netrunner-zeronet
 windowExpanding: noexpand
 
 strings:
-    productName:         Zerobox
-    shortProductName:    Core
-    version:             19.01.0-dev
-    shortVersion:        19.01
-    versionedName:       Netrunner Core
-    shortVersionedName:  Netrunner Core 19.01
-    bootloaderEntryName: Netrunner Core
+    productName:         Zerobox OS
+    shortProductName:    Zerobox
+    version:             19.08.0
+    shortVersion:        19.08
+    versionedName:       Zerobox OS 19.08.0
+    shortVersionedName:  Zerobox OS 19.08
+    bootloaderEntryName: Zerobox OS
 
 images:
     productLogo:         "zerobox-logo.png"
