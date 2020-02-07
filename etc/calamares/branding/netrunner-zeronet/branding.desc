@@ -5,10 +5,10 @@ windowExpanding: noexpand
 strings:
     productName:         Zerobox OS
     shortProductName:    Zerobox
-    version:             19.08.0
-    shortVersion:        19.08
-    versionedName:       Zerobox OS 19.08.0
-    shortVersionedName:  Zerobox OS 19.08
+    version:             20.01.0
+    shortVersion:        20.01
+    versionedName:       Zerobox OS 20.01.0
+    shortVersionedName:  Zerobox OS 20.01
     bootloaderEntryName: Zerobox OS
 
 images:
